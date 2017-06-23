@@ -2,7 +2,7 @@
 title: Yamanote Style
 description: > # this means to ignore newlines until "baseurl:"
   Soundscapes of the JR Yamanote line.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/yamanote-style/" # the subpath of your site, e.g. /blog/
 url: "https://yamanote.style/" # the base hostname & protocol for your site
 twitter_username: hunterbridges
 github_username:  hunterbridges
