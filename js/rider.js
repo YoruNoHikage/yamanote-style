@@ -130,7 +130,7 @@ Rider.prototype.getMelody = function(melodyName) {
   if (!!this.melodies[melodyName]) {
     return this.melodies[melodyName];
   } else {
-    var melody = new buzz.sound('/audio/melody/'+melodyName, {formats: ["mp3", "ogg"]});
+    var melody = new buzz.sound('audio/melody/'+melodyName, {formats: ["mp3", "ogg"]});
     this.melodies[melodyName] = melody;
     return melody;
   }
@@ -155,7 +155,7 @@ Rider.prototype.getAnnouncement = function(announcementName) {
   if (!!this.announcements[announcementName]) {
     return this.announcements[announcementName];
   } else {
-    var announcement = new buzz.sound('/audio/announce/'+announcementName, {formats: ["mp3", "ogg"]});
+    var announcement = new buzz.sound('audio/announce/'+announcementName, {formats: ["mp3", "ogg"]});
     this.announcements[announcementName] = announcement;
     return announcement;
   }
